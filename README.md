@@ -6,7 +6,7 @@ Paper: Massively Parallel Continuous Local Search for Hybrid SAT Solving on GPUs
 
 If you have questions or thoughts regarding the tool or this work, pleace contact cenyunuo@u.nus.edu.
 
-12-Dec-24 Update:
+**12-Dec-24 Update:**
 
 We are excited to share that our paper has been accepted by AAAI'25! 🎉
 
