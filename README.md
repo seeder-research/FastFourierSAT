@@ -1,5 +1,7 @@
 # FastFourierSAT
 
+We are excited to share that our paper has been accepted by AAAI'25! 🎉
+
 - `FastFourierSAT` is the vectorized version of [FourierSAT](https://github.com/vardigroup/FourierSAT) which enabled GPU to achieve better performance.
 - `FastFourierMaxSAT` is a partial MaxSAT solver, which use CDCL to solve the hard constraints as other local search solvers. 
 
