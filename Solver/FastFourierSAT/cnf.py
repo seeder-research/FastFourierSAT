@@ -79,7 +79,7 @@ def solve_cnf(filepath, tasks, t0):
             reward = res.sum(axis=0)
             weight = 0.9 * weight + 0.1 * reward/reward.max()
 
-        if err < 0.9:
+        if err <= 0.1:
             return True
 
     return False
