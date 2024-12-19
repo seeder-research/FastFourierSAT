@@ -93,7 +93,7 @@ def main():
         print("File not found")
         exit(0)
 
-    if not solve_cnf(args.filepath, 32, t0):
+    if not solve_cnf(args.filepath, 32, time()):
         print("Fails to solve")
         exit(0)
 
