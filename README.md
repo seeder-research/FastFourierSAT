@@ -1,17 +1,18 @@
 # FastFourierSAT
 
-We are excited to share that our paper has been accepted by AAAI'25! 🎉
+🎉 We are happy to share that our paper has been accepted by AAAI'25!
+Find us on Saturday, March 1, 12:30 pm - 2:30 pm (Poster) or Sunday, March 2, 3:45 pm - 5:00 pm (Oral).
 
-- `FastFourierSAT` is the vectorized version of [FourierSAT](https://github.com/vardigroup/FourierSAT) which enabled GPU to achieve better performance.
-- `FastFourierMaxSAT` is a partial MaxSAT solver, which use CDCL to solve the hard constraints as other local search solvers. 
+- `FastFourierSAT` is the vectorized version of [FourierSAT](https://github.com/vardigroup/FourierSAT) which enables GPU to achieve better performance.
+- `FastFourierMaxSAT` is a partial MaxSAT solver, which uses CDCL to solve the hard constraints as other local search solvers. 
 
 Paper: Massively Parallel Continuous Local Search for Hybrid SAT Solving on GPUs ([arxiv:2308.15020](https://arxiv.org/abs/2308.15020)).
 
-If you have questions or thoughts regarding the tool or this work, pleace contact cenyunuo@u.nus.edu.
+If you have questions or thoughts regarding the tool or this work, please contact cenyunuo@u.nus.edu.
 
 ## Installation
 
-1. If you have a CUDA-capable with pre-installed NVIDIA driver (verify with `nvidia-smi`), please install CUDA 12.0 from [this link](https://developer.nvidia.com/cuda-downloads).
+1. If you have a CUDA-capable with a pre-installed NVIDIA driver (verify with `nvidia-smi`), please install CUDA 12.0 from [this link](https://developer.nvidia.com/cuda-downloads).
 2. Add CUDA to PATH
     ```
     export CUDA_HOME="/usr/local/cuda-12.0"
@@ -19,7 +20,7 @@ If you have questions or thoughts regarding the tool or this work, pleace contac
     export PATH="$CUDA_HOME/bin:$PATH"
     ```
 3. Please use `nvcc -V` to verify the CUDA installation
-4. Following the instruction on [this link](https://github.com/google/jax#installation) to install `JAX`. Generally we use
+4. Following the instruction on [this link](https://github.com/google/jax#installation) to install `JAX`. Generally, we use
     ```
     pip install --upgrade "jax[cuda12_pip]" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
     ```
