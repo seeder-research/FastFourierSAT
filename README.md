@@ -1,12 +1,29 @@
 # FastFourierSAT
 
-🎉 We are happy to share that our paper has been accepted by AAAI'25!
-Find us on Saturday, March 1, 12:30 pm - 2:30 pm (Poster) or Sunday, March 2, 3:45 pm - 5:00 pm (Oral).
+Paper: Massively Parallel Continuous Local Search for Hybrid SAT Solving on GPUs.
+
+Yunuo Cen, Zhiwei Zhang, Xuanyao Fong
+
+[AAAI '25 Oral](https://ojs.aaai.org/index.php/AAAI/article/view/33211) | [arXiv](https://arxiv.org/abs/2308.15020)
+
+To cite this paper, use
+```
+@article{cen2025massively,
+    title={Massively Parallel Continuous Local Search for Hybrid SAT Solving on GPUs},
+    volume={39},
+    url={https://ojs.aaai.org/index.php/AAAI/article/view/33211},
+    DOI={10.1609/aaai.v39i11.33211},
+    number={11},
+    journal={Proceedings of the AAAI Conference on Artificial Intelligence},
+    author={Cen, Yunuo and Zhang, Zhiwei and Fong, Xuanyao},
+    year={2025},
+    month={Apr.},
+    pages={11140-11149}
+}
+```
 
 - `FastFourierSAT` is the vectorized version of [FourierSAT](https://github.com/vardigroup/FourierSAT) which enables GPU to achieve better performance.
 - `FastFourierMaxSAT` is a partial MaxSAT solver, which uses CDCL to solve the hard constraints as other local search solvers. 
-
-Paper: Massively Parallel Continuous Local Search for Hybrid SAT Solving on GPUs ([arxiv:2308.15020](https://arxiv.org/abs/2308.15020)).
 
 If you have questions or thoughts regarding the tool or this work, please contact cenyunuo@u.nus.edu.
 
